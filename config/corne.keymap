@@ -94,9 +94,9 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&none  &kp B            &kp L        &kp D           &kp C        &kp V        &kp P    &kp F            &kp O         &kp U        &trans           &none
-&none  &hm_250 LSHFT N  &hm LCTRL R  &hm LEFT_ALT T  &hm LGUI S   &kp G        &kp Y    &hm RGUI H       &hm RALT A    &hm RCTRL E  &hm_250 RSHFT I  &none
-&none  &kp X            &kp Z        &kp M           &kp W        &kp J        &kp Q    &kp K            &kp COMMA     &kp DOT      &kp SLASH        &none
+&none  &kp B            &kp L        &kp D           &kp C        &kp V        &kp P    &kp F            &kp O         &kp U        &lt 4 DOUBLE_QUOTES  &none
+&none  &hm_250 LSHFT N  &hm LCTRL R  &hm LEFT_ALT T  &hm LGUI S   &kp G        &kp Y    &hm RGUI H       &hm RALT A    &hm RCTRL E  &hm_250 RSHFT I      &none
+&none  &kp X            &kp Z        &kp M           &kp W        &kp J        &kp Q    &kp K            &kp COMMA     &kp DOT      &kp SLASH            &none
                                      &kp ESCAPE      &lt 1 SPACE  &lt 3 TAB    &kp RET  &lt 2 BACKSPACE  &lt 4 ESCAPE
             >;
         };
